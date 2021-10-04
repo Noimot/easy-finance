@@ -1,37 +1,44 @@
 import { faAngleDown, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Avatar from "@mui/material/Avatar";
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 export const Navbar = () => {
+  const [state, setState] = useState(false);
+
+  const handleClick = () => {
+    setState(!state);
+  };
+
   return (
     <div className="navstyle">
       <ul className="moveLeft align">
         <li className="flex">
           <FontAwesomeIcon
             icon={faPhoneVolume}
-            style={{ transform: "rotate(-45deg)"}}
+            style={{ transform: "rotate(-45deg)" }}
           />
           <p>Support</p>
         </li>
-        <li className="flex align pborder">
+        <li className="flex align pborder" onClick={handleClick}>
           <Avatar
             alt="Remy Sharp"
-            src="/static/images/avatar/1.jpg"
+            src="data:image/jpeg;base64,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"
             sx={{ width: 25, height: 25 }}
           />
           <p>Ayomide</p>
           <FontAwesomeIcon icon={faAngleDown} />
         </li>
       </ul>
+      {state && <NavDropdown />}
     </div>
   );
 };
 
 export const NavDropdown = () => {
   return (
-    <div>
+    <div className="dropdown">
       <ul>
         <li>Profile</li>
         <li>Logout</li>
