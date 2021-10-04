@@ -1,0 +1,14 @@
+.background {
+  background: #f6f9fc;
+  width: 100%;
+  height: 100vh;
+}
+
+.loans {
+  position: relative;
+  margin-left: 300px;
+}
+
+.loans > h1 {
+  margin: 20px 0;
+}

@@ -1,0 +1,32 @@
+.navstyle{
+background: yelllow;
+width:100%;
+border-bottom: solid 1px rgb(226, 223, 223);
+height: 40px;
+display: flex;
+align-items: center;
+padding-right: 30px;
+}
+
+.flex {
+  display: flex;
+  padding: 0 20px
+}
+
+.flex > p {
+  padding: 0 10px;
+}
+
+.align{
+  align-items: center;
+}
+
+.moveLeft {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.pborder {
+  border-left: solid 1px rgb(226, 223, 223);
+}

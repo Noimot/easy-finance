@@ -1,0 +1,22 @@
+{
+  "loans": 
+    {
+      "navbar": 
+        {
+          "support": "Support",
+          "Ayomide":["profile", "logout"]
+        }   
+      ,
+      "title": "Loans",
+      "heading": "My Active Loans",
+      "categories": [
+       "Reference Number",
+       "Total Amount(#)",
+       "Data Applied",
+       "Data Disbursed",
+       "Repayment Date",
+       "Actions"
+      ]
+    }
+}
+  

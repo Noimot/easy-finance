@@ -1,0 +1,7 @@
+.background {
+  background: #0d1f5f;
+  height: 100vh;
+  position:fixed;
+  width:260px;
+  top: 0;
+}

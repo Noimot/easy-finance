@@ -1,0 +1,29 @@
+.background{
+background: #fff;
+max-width: 1020px;
+width: 100%;
+position: relative;
+left: 300px;
+border-radius: 10px;
+padding: 15px;
+}
+
+.background > h1 {
+  margin-bottom: 15px;
+}
+
+.background > p {
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(156, 154, 154);
+  font-weight: 600;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(226, 223, 223);
+  padding-bottom: 5px;
+  font-weight: 600;
+}
