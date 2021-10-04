@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 // import { loanApi } from "../../redux/api/loanApi";
 import ActiveLoan from "../activeLoan/ActiveLoan";
 import { Navbar } from "../navbar/Navbar";
